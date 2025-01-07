@@ -50,7 +50,7 @@ The script outputs the station ID followed by the uptime percentage, rounded dow
 
 Example output:
 
-Copy code
+
 0 100
 1 0
 2 75
