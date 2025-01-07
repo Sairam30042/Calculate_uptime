@@ -24,7 +24,13 @@ No installation is required, other than having Python installed on your system. 
 Example format:
 [Stations] 0 1001 1002 1 1003 2 1004
 
-[Charger Availability Reports] 1001 0 50000 true 1001 50000 100000 true 1002 50000 100000 true 1003 25000 75000 false 1004 0 50000 true 1004 100000 200000 true
+[Charger Availability Reports] 
+1001 0 50000 true 
+1001 50000 100000 true 
+1002 50000 100000 true 
+1003 25000 75000 false 
+1004 0 50000 true 
+1004 100000 200000 true
 
 
 2. **Run the Script**: Navigate to the directory containing `calculate_uptime.py` and run the following command in the terminal:
@@ -34,9 +40,9 @@ Example format:
 3. **How to Run Tests**
 Ensure you have the test input files in the test_data/ directory. Run the test script from the terminal:
 
-bash
-Copy code
+
 python test_calculate_uptime.py
+
 This will execute all defined test cases based on the input files specified in the test_calculate_uptime.py script.
 Make sure the path for the inputs are correctly handled in test_calculate_uptime.py
 
