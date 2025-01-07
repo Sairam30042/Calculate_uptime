@@ -39,6 +39,7 @@ Example format:
 
 3. **How to Run Tests**
 Ensure you have the input files in the directory. Run the test script from the terminal:
+
          python test_calculate_uptime.py
 
 This will execute all defined test cases based on the input files specified in the test_calculate_uptime.py script.
